@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-midnight: #0E0E34;
+  --color-brand-navy: #252E8A;
+  --color-brand-pink: #9A4D87;
+  --color-brand-indigo: #5A7FC8;
+  --color-brand-canvas: #F7F6F7;
+
+  --color-brand-bg: #F7F6F7;
+  --color-brand-primary: #252E8A;
+  --color-brand-primary-hover: #1e256f;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-border: rgba(90, 127, 200, 0.2);
+
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #20bd5a;
+
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-jakarta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --background: #F7F6F7;
+  --foreground: #0E0E34;
+  --card: #FFFFFF;
+  --card-foreground: #0E0E34;
+  --primary: #252E8A;
+  --primary-foreground: #FFFFFF;
+  --secondary: #9A4D87;
+  --secondary-foreground: #FFFFFF;
+  --muted: #F7F6F7;
+  --muted-foreground: #5A7FC8;
+  --border: rgba(90, 127, 200, 0.2);
+}
+
+body {
+  background-color: #F7F6F7;
+  color: #0E0E34;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Asvithi Trendz Luxury Gradient Utilities */
+.bg-royal-gradient {
+  background: linear-gradient(135deg, #0E0E34 0%, #252E8A 50%, #9A4D87 100%) !important;
+}
+
+.bg-accent-gradient {
+  background: linear-gradient(90deg, #252E8A 0%, #9A4D87 100%) !important;
+}
+
+.bg-soft-gradient {
+  background: linear-gradient(180deg, #F7F6F7 0%, #ECE9F2 100%) !important;
+}
+
+.text-accent-gradient {
+  background: linear-gradient(90deg, #252E8A 0%, #9A4D87 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.luxury-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(90, 127, 200, 0.15);
+  box-shadow: 0 4px 20px -2px rgba(14, 14, 52, 0.05);
+}
+
+.luxury-glow {
+  box-shadow: 0 10px 25px -5px rgba(154, 77, 135, 0.35);
+}
